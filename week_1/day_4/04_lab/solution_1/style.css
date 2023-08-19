@@ -1,0 +1,61 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 40px;
+  background-color: #fff;
+  color: #444;
+}
+
+.wrapper{
+  width: 600px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.card{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card > img{
+  margin-right: 30px;
+}
+
+.read-more-link{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.read-more-link a{
+  color: crimson;
+  font-weight: bold;
+}
+
+@media (max-width: 720px) {
+  .wrapper{
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .wrapper h3{
+    font-size: 1rem;
+  }
+
+  .card > img{
+    display: none;
+  }
+
+  .read-more-link{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+  }
+
+  .wrapper h6{
+    display: none;
+  }
+}

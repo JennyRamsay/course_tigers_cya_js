@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(6, 31, 56);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+
+#calculatorDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+#header {
+  text-align: center;
+}
+
+#mainForm {
+  color: rgb(6, 31, 56);
+  background-color: dodgerblue;
+  max-height: 106px;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#partOneOfForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+#partTwoOfForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+#partThreeOfForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+input {
+  background-color: rgb(6, 31, 56);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#submitButton {
+  background-color: rgb(6, 31, 56);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 3px;
+}
+#submitButton:hover {
+  color: dodgerblue;
+  padding: 6px;
+  transition: 0.6s;
+}
+
+#calculations {
+  flex-direction: column;
+  color: rgb(6, 31, 56);
+  background-color: dodgerblue;
+  padding: 15px;
+  border-radius: 20px;
+  margin-right: 4%;
+}

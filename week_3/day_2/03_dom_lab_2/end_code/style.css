@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+}
+
+.product {
+  padding: 1.1em;
+  margin-right: 0.5em;
+  border: 1px solid black;
+  list-style: none;
+}

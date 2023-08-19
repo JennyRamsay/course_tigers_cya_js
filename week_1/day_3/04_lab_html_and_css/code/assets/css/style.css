@@ -1,0 +1,63 @@
+body > * {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 'header   header header header'
+                       'main     main   main   branches'
+                       'footer   footer footer footer';
+}
+
+body > header {
+  padding: 0;
+  text-align: center;
+  color: white;
+  background-color: dodgerblue;
+  grid-area: header;
+}
+
+#website-navigation {
+  padding: 1rem;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+#website-navigation > ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#website-navigation a {
+  color: black;
+}
+
+body > main {
+  grid-area: main;
+}
+
+#featured-books {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#featured-books img {
+  max-height: 8rem;
+}
+
+#branches {
+  grid-area: branches;
+}
+
+body > footer {
+  text-align: center;
+  color: white;
+  background-color: dodgerblue;
+  grid-area: footer;
+}
